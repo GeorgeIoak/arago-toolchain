@@ -1,0 +1,13 @@
+Package: task-sdk-bare
+Version: 1.0-r2-arago4.6
+Description: Packages for a standalone  SDK or external toolchain
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: MIT
+Architecture: armv5te
+OE: task-sdk-bare
+Homepage: unknown
+Build: <unknown>/65d4922
+Depends: libc6, virtual-libc-dev, glibc-utils, libsegfault, libthread-db1, libgcc1, libstdc++6, libstdc++-dev, gdbserver, linux-libc-headers-dev
+Source: file:///home/a0868396/toolchain/arago-oe-dev/recipes/tasks/task-sdk-bare.bb

@@ -1,0 +1,12 @@
+Package: binutils-cross-sdk
+Version: 2.20.1-r2.6
+Description: A GNU collection of binary utilities
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: GPLv3+
+Architecture: i686-armv5te-sdk
+OE: external-toolchain-sdk-arago
+Homepage: unknown
+Build: <unknown>/65d4922
+Source: file:///home/a0868396/toolchain/arago/recipes/meta/external-toolchain-sdk-arago.bb

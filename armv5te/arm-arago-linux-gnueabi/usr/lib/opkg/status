@@ -1,0 +1,143 @@
+Package: libc6
+Version: 2.12.2-r10.6
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1341543689
+Auto-Installed: yes
+
+Package: opkg
+Version: 0.1.8+svnr609-r5-arago2.6
+Depends: libopkg0 (>= 0.1.8+svnr609), libc6 (>= 2.12.2)
+Provides: update-alternatives
+Replaces: opkg-nogpg, opkg-nogpg-nocurl
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1341543702
+Auto-Installed: yes
+
+Package: libgcc1-dev
+Version: 4.5.3-r10.6
+Recommends: libc6-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1341543701
+Auto-Installed: yes
+
+Package: libstdc++-dev
+Version: 4.5.3-r10.6
+Depends: libstdc++6
+Recommends: libc6-dev, libgcc1-dev
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1341543701
+Auto-Installed: yes
+
+Package: libopkg0
+Version: 0.1.8+svnr609-r5-arago2.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1341543702
+Auto-Installed: yes
+
+Package: libstdc++6
+Version: 4.5.3-r10.6
+Depends: libc6 (>= 2.12.2), libgcc1 (>= 4.5.3)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1341543701
+Auto-Installed: yes
+
+Package: glibc-utils
+Version: 2.12.2-r10.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1341543701
+Auto-Installed: yes
+
+Package: libthread-db1
+Version: 2.12.2-r10.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1341543701
+Auto-Installed: yes
+
+Package: gdbserver
+Version: 7.2-r10.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1341543701
+Auto-Installed: yes
+
+Package: linux-libc-headers-dev
+Version: 2.6.31-r10.6
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1341543702
+Auto-Installed: yes
+
+Package: glibc-extra-nss
+Version: 2.12.2-r10.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1341543701
+Auto-Installed: yes
+
+Package: libsegfault
+Version: 2.12.2-r10.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1341543701
+Auto-Installed: yes
+
+Package: libc6-dev
+Version: 2.12.2-r10.6
+Depends: glibc-extra-nss, libc6, libthread-db1
+Provides: libc-dev, libc6-dev, virtual-libc-dev
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1341543701
+Auto-Installed: yes
+
+Package: arago-feed-configs
+Version: 1.0-r12.6
+Recommends: opkg
+Provides:
+Status: install user installed
+Architecture: armv5te
+Conffiles:
+Installed-Time: 1341543702
+
+Package: task-sdk-bare
+Version: 1.0-r2-arago4.6
+Depends: libc6, virtual-libc-dev, glibc-utils, libsegfault, libthread-db1, libgcc1, libstdc++6, libstdc++-dev, gdbserver, linux-libc-headers-dev
+Provides:
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1341543702
+
+Package: libgcc1
+Version: 4.5.3-r10.6
+Depends: libc6 (>= 2.12.2)
+Provides:
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1341543701
+Auto-Installed: yes
+

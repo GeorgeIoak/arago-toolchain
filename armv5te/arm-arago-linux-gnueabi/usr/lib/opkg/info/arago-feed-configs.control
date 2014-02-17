@@ -1,0 +1,13 @@
+Package: arago-feed-configs
+Version: 1.0-r12.6
+Description: Configuration files for online package repositories aka feeds
+Section: base
+Priority: optional
+Maintainer: Arago Developers <arago-devel@gforge.ti.com>
+License: MIT
+Architecture: armv5te
+OE: arago-feed-configs
+Homepage: unknown
+Build: <unknown>/65d4922
+Recommends: opkg
+Source: file:///home/a0868396/toolchain/arago/recipes/arago/arago-feed-configs.bb
